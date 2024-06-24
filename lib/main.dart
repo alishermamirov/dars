@@ -1,7 +1,7 @@
-import 'package:dars/bottomnavbar.dart';
 import 'package:dars/constants.dart';
 import 'package:dars/details_page.dart';
 import 'package:dars/homepage.dart';
+import 'package:dars/resposive_page.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         Routes.details: (context) => const DetailsPage()
       },
       // initialRoute: Routes.home,
-      home: const Bottomnavbar(),
+      home: const ResposivePage(),
     );
   }
 }
