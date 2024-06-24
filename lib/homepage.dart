@@ -19,27 +19,6 @@ class HomePage extends StatelessWidget {
       price: 20000,
     ),
     Recipe(
-      title: "Osh",
-      imageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNSkC451KlkejbP7cK_hXQsxNEAcpJbn6kWg&s",
-      ingredients: "nimadirlar",
-      price: 20000,
-    ),
-    Recipe(
-      title: "Osh",
-      imageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNSkC451KlkejbP7cK_hXQsxNEAcpJbn6kWg&s",
-      ingredients: "nimadirlar",
-      price: 20000,
-    ),
-    Recipe(
-      title: "Osh",
-      imageUrl:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNSkC451KlkejbP7cK_hXQsxNEAcpJbn6kWg&s",
-      ingredients: "nimadirlar",
-      price: 20000,
-    ),
-    Recipe(
       title: "somsa",
       imageUrl:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlm51xYVVVlsXjdR-bhQ6mdst2PB_qaH0Mxg&s",
