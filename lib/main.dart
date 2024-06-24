@@ -1,3 +1,4 @@
+import 'package:dars/bottomnavbar.dart';
 import 'package:dars/constants.dart';
 import 'package:dars/details_page.dart';
 import 'package:dars/homepage.dart';
@@ -13,14 +14,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(primaryColor: Colors.grey, fontFamily: "Lato"),
+      // theme: ThemeData(primaryColor: Colors.grey, fontFamily: "Lato"),
       debugShowCheckedModeBanner: false,
       routes: {
         Routes.home: (context) => const HomePage(),
         Routes.details: (context) => const DetailsPage()
       },
       // initialRoute: Routes.home,
-      home: const HomePage(),
+      home: const Bottomnavbar(),
     );
   }
 }
